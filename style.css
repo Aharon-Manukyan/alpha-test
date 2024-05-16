@@ -1,0 +1,9 @@
+*{
+    font-family: 'Gotham Pro';
+}
+
+@media screen and (min-width:360px) and (max-width:991px) {
+    *{
+        
+    }
+}
