@@ -4,14 +4,201 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/style.css">
+     <link rel="stylesheet" href="./styles/main.css">
     <title>Альфа Контекст</title>
 </head>
 <body>
-    <div class="">
-        <section class="header"></section>
-        <section class="main"></section>
-        <section class="contacts"></section>
+    <div class="all">
+        <div>
+            <section class="header ">
+                    <div class="header__mobileMenu ">
+                        <img src="./assets/burger.svg" alt="BurgerMenu">
+                    </div>
+                    <div class="header__logo ">
+                        <img src="./assets/logo.svg" alt="Logo">
+                    </div>
+                    <div class="header__menu">
+                        <div>
+                         <a>ГЛАВНАЯ</a>
+                        </div>
+                      <div>
+                          <a>ДОМА</a>
+                      </div>
+                        <div>
+                            <a>БАНИ</a>
+                        </div>
+                    </div>
+                    <div class="header__phoneNumbers">
+                       <div>
+                            <label for="Saint">Санкт-Петербург:</label>
+                            <p id="Saint"> 8 (812) 603-72-22 </p>
+                       </div>
+                       <div>
+                            <label for="Moscow">Москва: </label>
+                            <p id="Moscow">  8 (499) 380-77-33 </p>
+                       </div>
+                    </div>
+            </section>
+            <section class="main">
+                <div class="main__content">
+                   <div class="main__content--information mainInfo">
+                     <div class="mainInfo__title">
+                        <h1>
+                            «Пестовский Лесокомбинат»
+                        </h1>
+                    </div>
+                    <div class="mainInfo__subtitle">
+                        <p>Cтань частью нашей команды!</p>
+                    </div>
+                     <div class="mainInfo__send">
+                        <button>ОТПРАВИТЬ АНКЕТУ</button>
+                     </div>
+                   </div>
+                </div>
+
+                <div class="main__aboutOfCompany">
+                    <div class="main__aboutOfCompany--title">О КОМПАНИИ</div>
+                    <div class="main__aboutOfCompany--cards companyInfoCards">
+                        <div class="companyInfoCard">
+                            <div class="companyInfoCard__numbers">
+                                <span>2</span>
+                            </div>
+                            <div class="companyInfoCard__subtitle"><span>Города присутствия: </span> <span>Санкт-Петербург и Москва</span></div>
+                        </div>
+                         <div class="companyInfoCard">
+                            <div class="companyInfoCard__numbers">
+                                <span>> 30</span>
+                            </div>
+                            <div class="companyInfoCard__subtitle"> Лет среди лидеров рынка</div>
+                        </div>
+                         <div class="companyInfoCard">
+                            <div class="companyInfoCard__numbers">
+                                <span>100</span>
+                            </div>
+                            <div class="companyInfoCard__subtitle"> Домов и бань сдаём ежегодно</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__unit">
+                    <div class="main__unit--title">Выбери подразделение:</div>
+                    <div class="main__unit--buttons">
+                        <button class="active">Строительный отдел</button>
+                        <button>офис</button>
+                        <button>финансовый отдел</button>
+                        <button>Отдел продаж</button>
+                        <button>внештатный сотрудник</button>
+                    </div>
+                    <div class="main__unit--results unitResults">
+                        <div class="unitResult">
+                            <div class="unitResult__main">
+                                <div class="unitResult__main--row unitResult__main--vacancy">
+                                    <img src="./assets/vacancy.svg" alt="vacancy">
+                                    <span>Прораб</span>
+                                </div>
+                                <div class="unitResult__main--row unitResult__main--price">
+                                    <img src="./assets/price.svg" alt="price">
+                                    <span>от 00 000 руб</span>
+                                </div>
+                            </div>
+                            <div class="unitResult__add">
+                                <img src="./assets/more.svg" alt="more">
+                            </div>
+                        </div>
+                          <div class="unitResult">
+                            <div class="unitResult__main">
+                                <div class="unitResult__main--row unitResult__main--vacancy">
+                                    <img src="./assets/vacancy.svg" alt="vacancy">
+                                    <span>Специалист службы снабжения</span>
+                                </div>
+                                <div class="unitResult__main--row unitResult__main--price">
+                                    <img src="./assets/price.svg" alt="price">
+                                    <span>от 00 000 руб</span>
+                                </div>
+                            </div>
+                            <div class="unitResult__add">
+                                <img src="./assets/more.svg" alt="more">
+                            </div>
+                        </div>
+                          <div class="unitResult">
+                            <div class="unitResult__main">
+                                <div class="unitResult__main--row unitResult__main--vacancy">
+                                    <img src="./assets/vacancy.svg" alt="vacancy">
+                                    <span>Логист</span>
+                                </div>
+                                <div class="unitResult__main--row unitResult__main--price">
+                                    <img src="./assets/price.svg" alt="price">
+                                    <span>Обсуждается на собеседовании</span>
+                                </div>
+                            </div>
+                            <div class="unitResult__add">
+                                <img src="./assets/more.svg" alt="more">
+                            </div>
+                        </div>
+                          <div class="unitResult">
+                            <div class="unitResult__main">
+                                <div class="unitResult__main--row unitResult__main--vacancy">
+                                    <img src="./assets/vacancy.svg" alt="vacancy">
+                                    <span>Проектировщик</span>
+                                </div>
+                                <div class="unitResult__main--row unitResult__main--price">
+                                    <img src="./assets/price.svg" alt="price">
+                                    <span>от 00 000 руб</span>
+                                </div>
+                            </div>
+                            <div class="unitResult__add">
+                                <img src="./assets/more.svg" alt="more">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__unit--send">
+                        <button>ОТПРАВИТЬ АНКЕТУ</button>
+                     </div>
+                </div>
+                <div class="main__advantages">
+                    <div class="main__advantages--title">Преимущества Компании</div>
+                    <div class="main__advantages--details">
+                        <details>
+                           <summary>
+                                <span>Качество продукта</span>
+                                <img src="./assets/more.svg" alt="more">
+                            </summary>
+                            Мы гордимся результатами своей работы! Мы убеждены, что именно качество — это самое главное, это то, что даёт Нам уверенность в завтрашнем дне.
+                        </details>
+                         <details>
+                            <summary>
+                                <span>Популярность бренда в сети</span>
+                                <img src="./assets/more.svg" alt="more">
+                            </summary>
+                            Мы гордимся результатами своей работы! Мы убеждены, что именно качество — это самое главное, это то, что даёт Нам уверенность в завтрашнем дне.
+                        </details>
+                         <details>
+                            <summary>
+                                <span>Передовое рабочее место</span>
+                                <img src="./assets/more.svg" alt="more">
+                            </summary>
+                            Мы гордимся результатами своей работы! Мы убеждены, что именно качество — это самое главное, это то, что даёт Нам уверенность в завтрашнем дне.
+                        </details>
+                         <details>
+                            <summary>
+                                <span>Свои автоматизированные системы обучения</span>
+                                <img src="./assets/more.svg" alt="more">
+                            </summary>
+                            Мы гордимся результатами своей работы! Мы убеждены, что именно качество — это самое главное, это то, что даёт Нам уверенность в завтрашнем дне.
+                        </details>
+                         <details>
+                            <summary>
+                                <span>Сотрудничество с ведущими Компаниями рынка</span>
+                                <img src="./assets/more.svg" alt="more">
+                            </summary>
+                            Мы гордимся результатами своей работы! Мы убеждены, что именно качество — это самое главное, это то, что даёт Нам уверенность в завтрашнем дне.
+                        </details>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts"></section>
+        </div>
     </div>
 </body>
 </html>
