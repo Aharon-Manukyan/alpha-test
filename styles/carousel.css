@@ -1,0 +1,134 @@
+.professional__cards {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    margin: 15px 0;
+    transition: transform 0.3s ease;
+    justify-content: center;
+    height: 200px;
+    overflow: hidden;
+}
+
+.slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.875rem 1.875rem 0rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    line-height: 1;
+    transition: 1s ease;
+    position: absolute;
+    display: none;
+}
+
+.images {
+    width: 165px;
+    height: 182px;
+    padding: 0;
+    margin: 0;
+}
+
+.programmer-text {
+    font-family: var(--font-second);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: -0.5rem;
+}
+
+/* .professioal-card__arrow {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+} */
+
+.arrows {
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    fill: white;
+    padding: 0;
+    line-height: 0;
+}
+
+.button-arrow-left {
+    transition: ease 0.5s;
+    width: 4.30156rem;
+    height: 4.30156rem;
+    position: absolute;
+    left: 15px;
+}
+
+.button-arrow-left:hover {
+    width: 4.30156rem;
+    height: 4.30156rem;
+    transition: 0.5s ease;
+}
+
+.button-arrow-right {
+    transition: ease 0.5s;
+    width: 4.30156rem;
+    height: 4.30156rem;
+    position: absolute;
+    right: 15px;
+}
+
+.button-arrow-right:hover {
+    width: 4.30156rem;
+    height: 4.30156rem;
+    transition: 0.5s ease;
+}
+
+.slide-active {
+    display: flex !important;
+    transform: scale(1.75);
+    opacity: 1;
+}
+
+.slide-next {
+    display: flex !important;
+    transform: translateX(320px);
+    opacity: 0.7;
+    /* right: 0; */
+}
+
+.slide-prev {
+    display: flex !important;
+    transform: translateX(-320px);
+    opacity: 0.7;
+    /* left: 0; */
+}
+
+.main__products--carousel{
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+    background: #212121;
+    position: relative;
+    overflow: hidden;
+}
+
+#carousel-indicators{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.indicator{
+    width: 15px;
+    height: 15px;
+    background: #999999;
+    border-radius: 50%;
+}
+
+.activeIndicator{
+    width: 42.6px;
+    height: 15px;
+    background: #fff;
+    border-radius: 25px;
+}
